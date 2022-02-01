@@ -18,11 +18,11 @@ h1 {
 
 }
 h2 {
-font-size: 14px;
-font-weight:500;
-letter-spacing: 2px;
-text-transform: uppercase;
-margin-bottom: 1rem;
+    font-size: 14px;
+    font-weight:500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
 }
 
 p {
@@ -41,9 +41,9 @@ p {
     grid-column: main;
 }
 header {
-background-color: var(--gray-dark);
-color: #f2f2f2
-padding 1rem 0;
+    background-color: var(--gray-dark);
+    color: #f2f2f2
+    padding 1rem 0;
 }
 
 .overview {
@@ -52,16 +52,13 @@ padding 1rem 0;
     padding: 4rem 0;
 
 }
-.grid{
-    display: grid;
-    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0,1280px) [main-end]  minmax(1rem, 1fr) [full-end];
 
 figure {
     margin-top: 2rem;
 }
 
-figureimg{
-margin-bottom: 1rem;
+figure img{
+    margin-bottom: 1rem;
 }
 
 figcaption {
@@ -72,8 +69,8 @@ figcaption {
 
 @media screen and (min-width: 800px) {
     .two-column {
-        grid-gap: 3rem;
         display: grid;
+        grid-gap: 3rem;
         grid-template-columns: 1fr 1fr;
     }      
 }
