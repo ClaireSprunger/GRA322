@@ -51,11 +51,32 @@ p {
     color:var(--gray-light)
 }
 
-li {
+h6 {
     font-weight: 600;
-    color: #6A6A6A;
-    font-size:21px;
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color:var(--gray-light)
 }
+
+td { 
+    font-weight: 600;
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color:var(--gray-light)
+}
+
+table {
+width: 50%;
+}
+
+tr {
+    padding: 1rem; 
+}
+
 .grid{
     display: grid;
     grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0,1280px) [main-end]  minmax(1rem, 1fr) [full-end];
