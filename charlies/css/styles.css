@@ -83,21 +83,25 @@ h2 {
     color: var(--orange);
     width: 80%;
     display: flex;
+    margin-left: 0.5rem;
 }
 h3 {
     font-weight:700;
     font-size: 45px;
+    margin-left: 0.5rem;
 }
 
 h4 {
     font-weight: 600;
     font-size: 30px;
     margin-bottom: 1rem;
+    margin-left: 0.5rem;
 }
 
 h5 {
     font-weight: 600;
     font-size: 20px;
+    margin-left: 0.5rem;
     }
 
 p {
@@ -121,6 +125,7 @@ h6 {
 
 table {
     width: max;
+    margin-left: 0.5rem;
     }
 
 td { 
