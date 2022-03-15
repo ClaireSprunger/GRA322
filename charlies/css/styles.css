@@ -12,7 +12,7 @@ body {
 
 .container {
     display: flex;
-    margin-left:1rem;
+    margin-left:auto;
     margin-right: auto;
     margin-bottom: 1rem;
 }
@@ -126,6 +126,7 @@ h6 {
 table {
     width: max;
     margin-left: 0.5rem;
+    margin-right: 1rem;
     }
 
 td { 
@@ -209,7 +210,7 @@ footer p{
 button {
 margin-top: 1rem;
 margin-bottom: 3rem;
-margin-left: 1rem;
+margin-left: 0.5rem;
 color:#FDFCF8;
 background-color: #DF6026;
 font-weight:700;
