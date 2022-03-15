@@ -2,6 +2,7 @@ html {
     --cream: #FDFCF8;
     --orange: #DF6026;
     --gray-light: #6A6A6A;
+    background-color: #FDFCF8;
 }
 
 body {
@@ -9,60 +10,67 @@ body {
     color:var(--gray-light)
 }
 
+.container {
+    display: flex;
+    margin-left:1rem;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
 .logo img {
     width: 70px;
     height: 70px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
 }
 
 .header img {
-    border: 4px solid #DF6026;
+    border: 3px solid #DF6026;
     border-left: none;
     border-radius: 0px 200px 200px 0px;
-    margin-right: auto;
-    margin-left: none;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    width: 500px;
-    height: 350px;
-    display: flex
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1.5rem;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    object-fit: cover;
 }
 
 .second img {
-    border: 4px solid #DF6026;
+    border: 3px solid #DF6026;
     border-right: none;
     border-radius: 200px 0px 0px 200px;
     margin-left: auto;
     margin-right: none;
-    margin-top: 3rem;
-    width: 400px;
-    height: 300px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 300px;
+    height: 200px;
     display: flex;
+    object-fit: cover;
 
 
 }
 
 .food img{
-    border: 4px solid #DF6026;
+    border: 3px solid #DF6026;
     border-right: none;
     border-radius: 200px 0px 0px 200px;
     margin-left: auto;
     margin-right: none;
     margin-top: 3rem;
-    width: 350px;
-    height: 150px;
+    width: 200px;
+    height: 100px;
     display: flex;
+    object-fit: cover;
   }
 h1 {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 22px;
     letter-spacing: 1px;
     color: var(--orange);
     margin-right: auto;
-
-
-
+    margin-top: 2rem;
 
 }
 h2 {
@@ -70,22 +78,26 @@ h2 {
     font-weight:700;
     letter-spacing: 2px;
     margin-bottom: 1rem;
-    color: var(--orange)
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: var(--orange);
+    width: 80%;
+    display: flex;
 }
 h3 {
     font-weight:700;
-    font-size: 64px;
-    margin-left: 2rem;
+    font-size: 45px;
 }
 
 h4 {
     font-weight: 600;
-    font-size: 42px;
+    font-size: 30px;
+    margin-bottom: 1rem;
 }
 
-    h5 {
+h5 {
     font-weight: 600;
-    font-size: 27px;
+    font-size: 20px;
     }
 
 p {
@@ -100,7 +112,7 @@ p {
 
 h6 {
     font-weight: 600;
-    font-size: 21px;
+    font-size: 15px;
     letter-spacing: 1px;
     line-height: 1.5;
     margin-bottom: 1rem;
@@ -108,19 +120,20 @@ h6 {
 }
 
 table {
-    width: 60%;
+    width: max;
     }
 
 td { 
     font-weight: 600;
-    font-size: 21px;
+    font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.5;
-    margin-bottom: 1rem;
-    color:var(--gray-light)
+    padding: .25rem;
+    color:var(--gray-light);
 }
 td:first-child {
-    width:70%;
+    width:90%;
+    
 }
 
 tr {
@@ -176,32 +189,36 @@ footer p{
 }
 
 .map img {
-    border: 4px solid #DF6026;
-    border-radius: 70px 70px 70px 70px;
+    border: 2px solid #DF6026;
+    border-radius: 40px 40px 40px 40px;
     margin-right: auto;
-    margin-left: 3rem;
-    margin-top: 3rem;
-    width: 400px;
-    height: 400 px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 250px;
+    height: 200 px;
     display: flex;
 
 }
 
 button {
-margin-top: 2rem;
-margin-bottom: 2rem;
+margin-top: 1rem;
+margin-bottom: 3rem;
+margin-left: 1rem;
 color:#FDFCF8;
 background-color: #DF6026;
 font-weight:700;
-width: 175px;
-height: 75px;
-border: 2px solid #DF6026;
+font-size: 14px;
+width: 150px;
+height: 65px;
+border: 3px solid #DF6026;
 border-radius: 200px 200px 200px 200px;
 }
 
 h7{
     font-weight:600;
-    color:#FDFCF8
+    color:#FDFCF8;
+    margin-top: 1rem;
 }
 
 @media screen and (min-width: 800px) {
