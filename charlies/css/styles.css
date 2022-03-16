@@ -50,6 +50,7 @@ body {
     height: 220px;
     display: flex;
     object-fit: cover;
+    object-position: 50% 50%;
 
 
 }
@@ -152,6 +153,13 @@ td {
 }
 td:first-child {
     width:90%; 
+}
+
+td p {
+    color: #DF6026;
+    font-weight: 400;
+
+
 }
 
 tr {
