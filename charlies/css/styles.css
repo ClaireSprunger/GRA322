@@ -150,16 +150,17 @@ td {
     line-height: 1.5;
     padding: .25rem;
     color:var(--gray-light);
+    vertical-align: top;
 }
 td:first-child {
     width:90%; 
 }
 
 td p {
-    color: #DF6026;
+    color:#6A6A6A;
     font-weight: 400;
-
-
+    font-size:12px;
+    
 }
 
 tr {
