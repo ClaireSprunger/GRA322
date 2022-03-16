@@ -142,6 +142,7 @@ h3 {
     font-weight:700;
     font-size: 45px;
     margin-left: 1.5rem;
+    margin-top:1rem;
 }
 
 h4 {
@@ -159,6 +160,11 @@ h5 {
     margin-top:1rem;
     margin-bottom: 0.5rem;
     }
+
+div td {
+    margin-bottom:-5rem;
+}
+
 
 p {
     
@@ -203,15 +209,18 @@ td p {
     color:#6A6A6A;
     font-weight: 400;
     font-size:12px;
-    margin-top:.2rem;
+    margin-top:.3rem;
     margin-bottom:.2rem;
     width:80%;
+}
+
+td div {
+    margin-top: -6.25rem;
 }
 
 tr {
     padding: 1rem; 
 }
-
 
 .grid{
     display: grid;
