@@ -66,6 +66,14 @@ body {
     object-fit: cover;
   }
 
+  .fa-bars {
+      color:#DF6026;
+      margin-top: 2.5rem;
+      margin-left: 2.5rem;
+  }
+
+
+
 
 h1 {
     font-weight: 700;
