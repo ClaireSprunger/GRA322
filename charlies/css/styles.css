@@ -66,14 +66,57 @@ body {
     height: 70px;
     display: flex;
     object-fit: cover;
+    position: relative; 
+    top: 5rem;
+    margin-top:-2rem;
   }
 
-  .fa-bars {
-      color:#DF6026;
-      margin-top: 2.6rem;
-      margin-left: 2rem;
-  }
+.fa-bars {
+    color:#DF6026;
+    margin-top: 2.6rem;
+    margin-left: 2rem;
+    }   
 
+ .fa-instagram {
+     color:#FDFCF8
+    } 
+    
+ .fa-facebook-f {
+     color: #FDFCF8;
+ }   
+    
+ .fa-twitter {
+     color: #FDFCF8;
+ }
+ .social {
+     display:block;
+     margin-left: 14rem;
+     padding:1rem;
+     margin-right: auto;
+     margin-top:-6rem;
+ }
+
+ i {
+     padding:0.5rem;
+ }
+
+ .handle {
+    margin-top: -2rem;
+    margin-left:14rem;
+    margin-right:auto;
+}
+
+.cinnamon {
+    margin-bottom: 2.5rem;
+    margin-top:-2rem;
+}
+
+.bakery {
+    margin-bottom:2.5rem;
+}
+.med {
+    margin-bottom:-1rem;
+}
 
 
 
@@ -90,7 +133,7 @@ h2 {
     font-weight:700;
     letter-spacing: 2px;
     margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     margin-left: 1rem;
     color: var(--orange);
     width: 80%;
@@ -115,6 +158,8 @@ h5 {
     font-weight: 600;
     font-size: 20px;
     margin-left: 1.5rem;
+    margin-top:1rem;
+    margin-bottom: 0.5rem;
     }
 
 p {
@@ -140,7 +185,7 @@ h6 {
 table {
     width: max;
     margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-right: 0.5rem;
     }
 
 td { 
@@ -153,19 +198,22 @@ td {
     vertical-align: top;
 }
 td:first-child {
-    width:90%; 
+    width:72%; 
 }
 
 td p {
     color:#6A6A6A;
     font-weight: 400;
     font-size:12px;
-    
+    margin-top:.2rem;
+    margin-bottom:.2rem;
+    width:80%;
 }
 
 tr {
     padding: 1rem; 
 }
+
 
 .grid{
     display: grid;
