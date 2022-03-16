@@ -17,10 +17,11 @@ body {
     margin-bottom: 1rem;
 }
 .logo img {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     margin-top: 1rem;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
 }
 
 .header img {
@@ -68,8 +69,8 @@ body {
 
   .fa-bars {
       color:#DF6026;
-      margin-top: 2.8rem;
-      margin-left: 2.5rem;
+      margin-top: 2.6rem;
+      margin-left: 2rem;
   }
 
 
@@ -77,11 +78,10 @@ body {
 
 h1 {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 24px;
     letter-spacing: 1px;
     color: var(--orange);
-    margin-right: auto;
-    margin-top: 2.25rem;
+    margin-top: 2rem;
 
 }
 h2 {
