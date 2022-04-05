@@ -1,8 +1,5 @@
-
-
-body {
-    background-color: white;
-
+.current-page {
+    font-weight: bold;
 }
 
 @media screen and (min-width: 800px) {
