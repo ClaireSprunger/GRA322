@@ -9,3 +9,24 @@
         grid-template-columns: 1fr 1fr;
     }      
 }
+* {
+    box-sizing: border-box;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  .horizontal-container {
+    display: flex;
+    overflow: scroll;
+  }
+  .box {
+    margin-right: 1rem;
+    min-width: 300px;
+  }
+  .text {
+    padding: 1rem;
+  }
