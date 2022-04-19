@@ -5,7 +5,29 @@
 .page {
     margin: 2rem;
 }
-
+h1 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+}
+h2 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+h3 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.text {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+h4 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+}
 * {
     box-sizing: border-box;
   }
@@ -21,8 +43,8 @@
     overflow: scroll;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    max-width: 100;
   }
+
   .box {
     margin-right: 1rem;
     min-width: 400px;
@@ -31,8 +53,9 @@
     padding: 1rem;
   }
 
-  .video {
+  .videos {
       margin-top: 1rem;
+      margin-bottom: 1rem;
     
   }
   @media screen and (min-width: 800px) {
