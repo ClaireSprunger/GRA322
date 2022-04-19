@@ -3,7 +3,7 @@
 }
 
 .page {
-    margin: 5rem;
+    margin: 2rem;
 }
 
 * {
@@ -19,6 +19,9 @@
   .horizontal-container {
     display: flex;
     overflow: scroll;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 100;
   }
   .box {
     margin-right: 1rem;
@@ -26,6 +29,11 @@
   }
   .text {
     padding: 1rem;
+  }
+
+  .video {
+      margin-top: 1rem;
+    
   }
   @media screen and (min-width: 800px) {
     .two-column {
