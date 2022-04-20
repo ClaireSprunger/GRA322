@@ -8,6 +8,7 @@
 h1 {
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 500;
+    font-size: 30px;
 }
 h2 {
     font-family: 'Libre Franklin', sans-serif;
@@ -45,10 +46,21 @@ h4 {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+  .mockup {
+    padding-bottom: 1rem;
+  }
 
-.symbol-motion {
-  background-color:#f3e9e5;
+.symbol-motion-grid {
+ display:grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 1rem;
+ margin: 0 auto;
 }
+
+.symbol-motion-pictures {
+  background-color: #f3e9e5;
+}
+
 
   .box {
     margin-right: 1rem;
