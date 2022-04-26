@@ -28,6 +28,7 @@ h3 {
 h4 {
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 300;
+    font-size: small;
 }
 * {
     box-sizing: border-box;
@@ -61,7 +62,11 @@ h4 {
   background-color: #f3e9e5;
 }
 .header {
-  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.footer {
+  padding-bottom: 0.5rem;
 }
 
   .box {
