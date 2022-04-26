@@ -60,7 +60,9 @@ h4 {
 .symbol-motion-pictures {
   background-color: #f3e9e5;
 }
-
+.header {
+  margin-bottom: 2rem;
+}
 
   .box {
     margin-right: 1rem;
