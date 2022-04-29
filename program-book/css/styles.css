@@ -5,10 +5,13 @@
 .page {
     margin: 2rem;
 }
+
+/* Font Styles*/
 h1 {
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 500;
     font-size: 30px;
+    padding-bottom: 1rem;
 }
 h2 {
     font-family: 'Libre Franklin', sans-serif;
@@ -19,49 +22,91 @@ h3 {
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 500;
     font-size: 15px;
+    text-decoration:none;
 }
 .text {
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 500;
     font-size: 15px;
+    padding-bottom: 1rem;
 }
 h4 {
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 14px;
 }
-* {
-    box-sizing: border-box;
+
+.web-labels {
+  padding-top: 1.5rem;
+  padding-bottom:0.75rem;
+}
+
+
+
+
+ /* Mobile Sliders */
+
+  
+ 
+ .tns-outer {
+
   }
-  body {
-    overflow-x: hidden;
+  
+  .tns-controls {
+    display: flex;
+    padding: 3rem;
+    justify-content: space-between;
   }
-  img {
-    display: block;
-    max-width: 100%;
+  
+  .tns-controls button {
+    background-color: o;
+    border: 1px solid black;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
   }
 
-  .horizontal-container {
-    display: flex;
-    overflow: scroll;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  .mockup {
+  
+
+
+ /* Mobile Mockup */
+
+.mockup {
     padding-bottom: 1rem;
   }
 
-.symbol-motion-grid {
- display:grid;
- grid-template-columns: 1fr 1fr;
- gap: 1rem;
- margin: 0 auto;
+
+ /* Symbol Motion Mobile Grid */
+
+.my-slider {
+  background-color:  #f3e9e5;
 }
 
-.symbol-motion-pictures {
-  background-color: #f3e9e5;
-}
+
+.website-grid {
+  display:grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 0 auto;
+ }
+
+
+/* Header*/
 .header {
+  padding-bottom: 1rem;
+  display:flex;
+  color:gray;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: gray;
+}
+.work {
+  padding-left: 11rem;
+}
+
+.hero {
   padding-bottom: 1rem;
 }
 
@@ -69,16 +114,13 @@ h4 {
   padding-bottom: 0.5rem;
 }
 
-  .box {
-    margin-right: 1rem;
-    min-width: 400px;
-  }
+
   .text {
     padding: 1rem;
   }
 
+
   .videos {
-      margin-top: 1rem;
       margin-bottom: 1rem;
     
   }
