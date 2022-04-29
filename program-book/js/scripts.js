@@ -35,7 +35,7 @@ var slider = tns({
   });
 
   var slider = tns({
-    container: ".process-slider",
+    container: ".other-slider",
     items: 1,
     slideBy: "page",
     autoplay: true,
