@@ -34,15 +34,5 @@ var slider = tns({
     nav: false,
   });
 
-  var slider = tns({
-    container: ".other-slider",
-    items: 1,
-    slideBy: "page",
-    autoplay: true,
-    autoplayButtonOutput: false,
-    prevButton:false,
-    nextButton: false,
-    controls: false,
-    nav: false,
-  });
+
 

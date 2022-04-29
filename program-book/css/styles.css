@@ -112,12 +112,15 @@ a:visited {
 
 .footer {
   margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 
   .text {
     padding: 1rem;
+  }
+  .mockup {
+    padding-top: 1rem;
   }
 
 
