@@ -4,43 +4,59 @@
 
 .page {
     margin: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.footer {
+  padding-top: 2rem;
 }
 
 /* Font Styles*/
 h1 {
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 500;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
     font-size: 30px;
     padding-bottom: 1rem;
 }
 h2 {
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 500;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
     font-size: 20px;
 }
 h3 {
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 500;
     font-size: 15px;
     text-decoration:none;
 }
 .text {
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 500;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
     font-size: 15px;
     padding-bottom: 1rem;
 }
 h4 {
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     font-size: 14px;
 }
+
+h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
 
 .web-labels {
   padding-top: 1.5rem;
   padding-bottom:0.75rem;
 }
 
+.videos {
+  margin-top: -1.5rem;
+}
 
 
 
@@ -110,10 +126,6 @@ a:visited {
   padding-bottom: 1rem;
 }
 
-.footer {
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-}
 
 
   .text {

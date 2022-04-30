@@ -23,7 +23,7 @@ var slider = tns({
   });
 
   var slider = tns({
-    container: ".motion-slider",
+    container: ".progress-slider",
     items: 1,
     slideBy: "page",
     autoplay: true,
@@ -33,6 +33,4 @@ var slider = tns({
     controls: false,
     nav: false,
   });
-
-
 
