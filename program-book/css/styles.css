@@ -8,9 +8,6 @@
 
 }
 
-.footer {
-  padding-top: 2rem;
-}
 
 /* Font Styles*/
 h1 {
@@ -58,6 +55,9 @@ h5 {
   margin-top: -1.5rem;
 }
 
+.footer {
+  padding-top: 2rem;
+}
 
 
  /* Mobile Sliders */
@@ -99,10 +99,9 @@ h5 {
 
 
 .website-grid {
-  display:grid;
-  grid-template-columns: 1fr;
+  Display: grid; 
+  Grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  margin: 0 auto;
  }
 
 
