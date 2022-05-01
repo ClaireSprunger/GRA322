@@ -369,7 +369,9 @@ h7{
 
     
     }
-
+        .coffee {
+            margin-left: 4rem;
+        }
 
 
 
@@ -393,8 +395,12 @@ h7{
             font-size:12px;
             margin-top:.3rem;
             margin-bottom:.2rem;
+            margin-left:4rem;
 
         }   
+        h4 {
+            margin-left: 4rem;
+        }
         .container {
             display: flex;
             margin-left:auto;
