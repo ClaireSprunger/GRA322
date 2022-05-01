@@ -288,7 +288,7 @@ footer p{
 
 }
 
-button {
+.button1 {
 margin-top: 1rem;
 margin-bottom: 3rem;
 margin-left: 1rem;
@@ -328,7 +328,7 @@ h7{
             height: 100px;
             margin-top: 1rem;
             margin-right: -3rem;
-            margin-left: 40rem;
+            margin-left: 30rem;
         }
         .header img {
             object-fit: cover;
@@ -345,11 +345,10 @@ h7{
             
         }
 
-        h1 {
-            size: 70pt;
-            margin-left: 4rem;
-        }
+
     
+
+
         .second img {
             visibility: hidden;
         }
@@ -378,11 +377,6 @@ h7{
             margin-left: 4rem;
         }
 
-
-
-        .grid > * {
-            grid-column: main;
-        }
 
         .fa-bars {
             visibility: hidden;
@@ -426,6 +420,6 @@ h7{
         .last-grid {
             margin-left:4rem;
         }
-        td p {
+
 
 }
