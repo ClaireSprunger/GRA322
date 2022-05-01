@@ -322,13 +322,13 @@ h7{
 
 
 /* Desktop Media Query */
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1000px) {
         .logo img {
             width: 100px;
             height: 100px;
             margin-top: 1rem;
             margin-right: -3rem;
-            margin-left: 17rem;
+            margin-left: 40rem;
         }
         .header img {
             object-fit: cover;
@@ -343,6 +343,11 @@ h7{
             margin-top: 4rem;
             margin-bottom: -3rem;
             
+        }
+
+        h1 {
+            size: 70pt;
+            margin-left: 4rem;
         }
     
         .second img {
