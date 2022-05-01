@@ -484,7 +484,8 @@ h7{
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-.end-of-page {
+
+.last-grid {
     margin-left:4rem;
 }
 td p {
@@ -493,7 +494,7 @@ td p {
     font-size:16px;
     margin-top:.3rem;
     margin-bottom:.2rem;
-    width:80%;
+    width:40%;
 }
 td {
     color:#6A6A6A;
@@ -514,21 +515,17 @@ td {
     padding-bottom: -5rem;
 }
 
-.grid{
+.grid {
     display: grid;
     grid-template-columns: [full-start] minmax(0rem, 0fr) [main-start] minmax(0,1440px) [main-end]  minmax(0rem, 0fr) [full-end];
 }
 
-.sandwich {
-    width:40%;
-}
 
-}
 
 button {
     margin-top: 1rem;
     margin-bottom: 3rem;
-    margin-left: 1rem;
+    margin-left: 4rem;
     color:#FDFCF8;
     background-color: #DF6026;
     font-weight:700;
