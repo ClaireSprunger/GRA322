@@ -284,6 +284,7 @@ footer p{
     margin-bottom: 2rem;
     width: 250px;
     height: 200 px;
+    display: flex;
 
 }
 
@@ -322,218 +323,94 @@ h7{
 
 /* Desktop Media Query */
 @media screen and (min-width: 1400px) {
-    .logo img {
-        width: 100px;
-        height: 100px;
-        margin-top: 1rem;
-        margin-right: -3rem;
-        margin-left: 17rem;
-    }
-    .header img {
-        object-fit: cover;
-        border: 3px solid #DF6026;
-        border-left: none;
-        border-radius: 0px 300px 300px 0px;
-        margin-top: 1rem;
-        margin-right: 1.5rem;
-        width: 2000px;
-        height: 600px;
-        display: flex;
-        margin-top: 4rem;
-        margin-bottom: -3rem;
-
-        
-    }
-    
-    .second img {
-        visibility: hidden;
-    }
-
-    .food img{
-        border: 2.5px solid #DF6026;
-        border-right: none;
-        border-radius: 400px 0px 0px 400px;
-        margin-left: auto;
-        margin-right: none;
-        padding-right: none;
-        margin-top: 3rem;
-        width: 800px;
-        height: 600px;
-        display: flex;
-        object-fit: cover;
-        position: relative; 
-        top: 5.25rem;
-        margin-top: 10rem;
-      }
-
-      .map img {
-        border: 2px solid #DF6026;
-        border-radius: 80px 80px 80px 80px;
-        margin-right: auto;
-        margin-left: 1.5rem;
-        margin-top: 1.5rem;
-        margin-bottom: 2rem;
-        width: 550px;
-        height: 500px;
-        display: flex;
-    
-    }
-
-      h1 {
-        font-weight: 700;
-        font-size: 45px;
-        letter-spacing: 1px;
-        color: var(--orange);
-        margin-top: 2rem;
-        margin-left: 4rem;
-        color: #DF6026;
-        
-    
-    }
-    h2 {
-        font-size: 32px;
-        font-weight:700;
-        letter-spacing: 2px;
-        margin-top: 1.5rem;
-        margin-left: 1rem;
-        color: var(--orange);
-        width: 70%;
-        display: flex;
-        margin-left: 5rem;
-        margin-bottom: -5rem;
-        color: #DF6026;
-    }
-    h3 {
-        font-weight:700;
-        font-size: 60px;
-        margin-left: 4rem;
-
-        color: #DF6026;
-    }
-    
-    h4 {
-        font-weight: 600;
-        font-size: 50px;;
-        margin-top: -25rem;
-        margin-bottom: 5rem;
-        margin-left: 4rem;
-        max-width: 40%;
-    }
-    
-    h5 {
-        font-weight: 600;
-        font-size: 35px;
-        margin-left: 4rem;
-        margin-top:1rem;
-        margin-bottom: 0.5rem;
+        .logo img {
+            width: 100px;
+            height: 100px;
+            margin-top: 1rem;
+            margin-right: -3rem;
+            margin-left: 17rem;
         }
-
-    h6 {
-            font-weight: 600;
-            font-size: 24px;
-            letter-spacing: 1px;
-            line-height: 1.5;
-            margin-bottom: 1rem;
-            color:#6A6A6A;
-            margin-left: 1.5rem;
+        .header img {
+            object-fit: cover;
+            border: 3px solid #DF6026;
+            border-left: none;
+            border-radius: 0px 300px 300px 0px;
+            margin-top: 1rem;
+            margin-right: 1.5rem;
+            width: 2000px;
+            height: 600px;
+            display: flex;
+            margin-top: 4rem;
+            margin-bottom: -3rem;
+            
         }
     
-      p {
-            font-weight: 600;
-            font-size: 30px;
-            letter-spacing: 1px;
-            line-height: 1.5;
-            margin-bottom: 1rem;
-            color:var(--gray-light)
+        .second img {
+            visibility: hidden;
+        }
+
+        .food img{
+            border: 2.5px solid #DF6026;
+            border-right: none;
+            border-radius: 400px 0px 0px 400px;
+            margin-left: auto;
+            margin-right: none;
+            padding-right: none;
+            margin-top: 3rem;
+            width: 800px;
+            height: 300px;
+            display: flex;
+            object-fit: cover;
+            position: relative; 
+            top: 5.25rem;
+            margin-top: 10rem;
+        }
+
+
+    
+    }
+
+
+
+
+        .grid > * {
+            grid-column: main;
+        }
+
+        .fa-bars {
+            visibility: hidden;
+            }   
+
+        .hero {
+            display: flex;
+            justify-content: center;
         }    
 
 
+        td p {
+            color:#6A6A6A;
+            font-weight: 400;
+            font-size:12px;
+            margin-top:.3rem;
+            margin-bottom:.2rem;
 
-    .grid > * {
-        grid-column: main;
-    }
-    .fa-bars {
-        visibility: hidden;
         }   
-    .hero {
-        display: flex;
-        justify-content: center;
-    }    
+        .container {
+            display: flex;
+            margin-left:auto;
+            margin-right: auto;
+        }
+        .gelato-price1 { 
+            margin-top: 2rem;
+        }
+        .price {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
 
- table {
-        margin-left: 4rem;
-    }
-
-    td p {
-        color:#6A6A6A;
-        font-weight: 400;
-        font-size:12px;
-        margin-top:.3rem;
-        margin-bottom:.2rem;
-
-    }   
-    .container {
-        display: flex;
-        margin-left:auto;
-        margin-right: auto;
-    }
-.gelato-price1 { 
-    margin-top: 2rem;
-}
-.price {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.last-grid {
-    margin-left:4rem;
-}
-td p {
-    color:#6A6A6A;
-    font-weight: 400;
-    font-size:16px;
-    margin-top:.3rem;
-    margin-bottom:.2rem;
-    width:40%;
-}
-td {
-    color:#6A6A6A;
-    font-weight: 600;
-    font-size:20px;
-    width:80%;
-}
-
-.by-map{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-
-
-.hours {
-    padding-top: 10rem;
-    padding-bottom: -5rem;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: [full-start] minmax(0rem, 0fr) [main-start] minmax(0,1440px) [main-end]  minmax(0rem, 0fr) [full-end];
-}
-
-
-
-button {
-    margin-top: 1rem;
-    margin-bottom: 3rem;
-    margin-left: 4rem;
-    color:#FDFCF8;
-    background-color: #DF6026;
-    font-weight:700;
-    font-size: 24px;
-    width: 300px;
-    height: 100px;
-    border: 3px solid #DF6026;
-    border-radius: 200px 200px 200px 200px;
-    }
+        .last-grid {
+            margin-left:4rem;
+        }
+        td p {
 
 }
