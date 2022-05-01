@@ -27,6 +27,14 @@ h3 {
     font-size: 15px;
     text-decoration:none;
 }
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration:none;
+
+}
 .text {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
@@ -81,6 +89,7 @@ h5 {
     padding: 0.5rem 1rem;
   }
 
+
   
 
 
@@ -94,7 +103,8 @@ h5 {
  /* Symbol Motion Mobile Grid */
 
 .my-slider {
-  background-color:  #f3e9e5;
+border:0.125in;
+border-color: gray;
 }
 
 
@@ -135,12 +145,104 @@ a:visited {
   }
 
 
+      
 
+/* Desktop Media Query */
+@media screen and (min-width: 1400px) {
+
+   .work {
+    padding-left: 66rem;
+  }
+  .page {
+    margin-left: 5rem;
+    margin-right:5rem;
+  }
+nav {
+    Display: grid; 
+    Grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+  }
+
+  h2 { 
+    width: 40rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+  }
+
+  .my-slider {
+    width: 100px;
+    justify-content: center;
+  }
+  .mobile-slider {
+    width: 100px;
+    justify-content: center;
+  }
+  .progress-slider {
+    width: 100px;
+    align-content: center;
+  }
+  .image1 { 
+    max-width: 100%;
+    max-height:100%;
+    overflow: hidden;
+  }
     
-  @media screen and (min-width: 800px) {
-    .two-column {
-        display: grid;
-        grid-gap: 3rem;
-        grid-template-columns: 1fr 1fr;
-    }      
+
+  .image2 { 
+    max-width: 100%;
+    max-height:100%;
+    overflow: hidden;
+    }
+
+
+  .image3 { 
+    max-width: 100%;
+    max-height:100%;
+    overflow: hidden;
+  }
+
+  .image4 { 
+    max-width: 100%;
+    max-height:100%;
+    overflow: hidden;
+  }
+
+  .image5 { 
+    max-width: 100%;
+    max-height:100%;
+    overflow: hidden;
+  }
+
+  .image6 { 
+    max-width: 100%;
+    max-height:100%;
+    overflow: hidden;
+  }
+  .extra {
+    padding-left: 8.5rem;
+  }
+
+
+  .video-icecream{
+    padding-top: 2rem;
+  }
+
+
+.mockup-grid {
+  display: grid;
+  gap: 1rem;
+}
+.website-grid {
+  Display: grid; 
+  Grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+ }
 }
