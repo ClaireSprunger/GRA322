@@ -232,7 +232,7 @@ nav {
 
 
   .video-icecream{
-    padding-top: 2rem;
+    padding-top: 3rem;
   }
 
 
@@ -240,9 +240,14 @@ nav {
   display: grid;
   gap: 1rem;
 }
+
 .website-grid {
   Display: grid; 
   Grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
  }
+
+   
+
+
 }
