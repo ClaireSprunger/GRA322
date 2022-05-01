@@ -284,7 +284,6 @@ footer p{
     margin-bottom: 2rem;
     width: 250px;
     height: 200 px;
-    display: flex;
 
 }
 
@@ -310,27 +309,28 @@ h7{
     margin-bottom:0.5rem;
 }
 
-
-
-/* Tablet Media Query */
-@media screen and (min-width: 800px) {
-    .two-column {
-        display: grid;
-        grid-gap: 3rem;
-        grid-template-columns: 1fr 1fr;
-    }      
+.sandwich {
+    color:#6A6A6A;
+    font-weight: 600;
+    font-size:20px;
+    width:80%; 
 }
+
+
+
+
 
 /* Desktop Media Query */
 @media screen and (min-width: 1400px) {
     .logo img {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
         margin-top: 1rem;
         margin-right: 1rem;
-        margin-left: 0.5rem;
+        margin-left: 15rem;
     }
     .header img {
+        object-fit: cover;
         border: 3px solid #DF6026;
         border-left: none;
         border-radius: 0px 300px 300px 0px;
@@ -339,7 +339,9 @@ h7{
         width: 2000px;
         height: 600px;
         display: flex;
-        object-fit: cover;
+        margin-top: 4rem;
+        margin-bottom: -3rem;
+
         
     }
     
@@ -350,18 +352,18 @@ h7{
     .food img{
         border: 2.5px solid #DF6026;
         border-right: none;
-        border-radius: 200px 0px 0px 200px;
+        border-radius: 400px 0px 0px 400px;
         margin-left: auto;
         margin-right: none;
         padding-right: none;
         margin-top: 3rem;
         width: 800px;
-        height: 400px;
+        height: 600px;
         display: flex;
         object-fit: cover;
         position: relative; 
         top: 5.25rem;
-        margin-top:-2rem;
+        margin-top: 10rem;
       }
 
       .map img {
@@ -398,20 +400,21 @@ h7{
         width: 70%;
         display: flex;
         margin-left: 5rem;
+        margin-bottom: -5rem;
         color: #DF6026;
     }
     h3 {
         font-weight:700;
         font-size: 60px;
         margin-left: 4rem;
-        margin-top:2rem;
+
         color: #DF6026;
     }
     
     h4 {
         font-weight: 600;
         font-size: 50px;;
-        margin-top: -7rem;
+        margin-top: -25rem;
         margin-bottom: 5rem;
         margin-left: 4rem;
         max-width: 40%;
@@ -498,6 +501,7 @@ td {
     font-size:20px;
     width:80%;
 }
+
 .by-map{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -505,7 +509,7 @@ td {
 
 
 .grid > * {
-    grid-column: main;
+    grid-column:
 }
 
 .hours {
@@ -513,5 +517,13 @@ td {
     padding-bottom: -5rem;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: [full-start] minmax(0rem, 0fr) [main-start] minmax(0,1440px) [main-end]  minmax(0rem, 0fr) [full-end];
+}
+
+td:first-child {
+    width:32%; 
+}
 
 }
