@@ -287,7 +287,7 @@ footer p{
 
 }
 
-.button1 {
+.button {
 margin-top: 1rem;
 margin-bottom: 3rem;
 margin-left: 1rem;
@@ -382,7 +382,8 @@ h7{
             margin-left: auto;
             margin-right: none;
             padding-right: none;
-            margin-top: 3rem;
+            margin-bottom:2rem;
+            margin-top: 2rem;
             width: 700px;
             height: 350px;
             display: flex;
@@ -456,7 +457,7 @@ h7{
             margin-left:4rem;
         }
         table {
-            width: max;
+            width: 80%;
             margin-left: 4rem;
             margin-right: 0.5rem;
             }
@@ -473,15 +474,31 @@ h7{
         td:first-child {
             width:85%; 
         }
-        td p {
-            width:40%;
-        }
+
         .map {
 
             padding-top: 7rem;
-            padding-bottom:3rem;
-            width: 400px;
-            height: 300 px;
+            padding-bottom:5rem;
+            size: 500;
+            border-radius: 50 50 50 50;
+            margin-left:4rem;
+        }
+        .cinnamon {
+            padding-top: 7rem;
         }
 
-}
+        .button {
+            margin-top: 1rem;
+            margin-bottom: 3rem;
+            margin-left: 1rem;
+            color:#FDFCF8;
+            background-color: #DF6026;
+            font-weight:700;
+            font-size: 14px;
+            width: 150px;
+            height: 65px;
+            border: 3px solid #DF6026;
+            border-radius: 200px 200px 200px 200px;
+            }
+
+}       
