@@ -131,7 +131,7 @@ h2 {
     font-size: 17px;
     font-weight:700;
     letter-spacing: 2px;
-
+    margin-top: 1rem;
     margin-left: 1rem;
     color: #DF6026;
     width: 70%;
@@ -330,8 +330,47 @@ h7{
             margin-left: 30rem;
         }
 
+        .header img {
+            border: 3px solid #DF6026;
+            border-left: none;
+            border-radius: 0px 400px 400px 0px;
+            margin-top: 1rem;
+            margin-right: 1.5rem;
+            width: 1140px;
+            height:600px;
+            display: flex;
+            object-fit: cover;
+            
+        }
 
+        h1 {
+            font-size:40pt;
+            padding-left:4rem;
+        }
 
+        h2 {
+            font-size: 24pt;
+            width: 50%;
+            margin-top: 2rem;
+            margin-left:4rem;
+        }
+
+        h3 {
+            margin-left: 4rem;
+
+        }
+
+        h4 {
+            margin-left: 4rem;
+        }
+
+        td {
+            margin-left:4rem;
+        }
+
+        tr {
+            margin-left: 4rem;
+        }
     
 
 
@@ -356,11 +395,49 @@ h7{
             margin-top: 10rem;
         }
 
+        h4 {
+            font-weight: 600;
+            font-size: 40px;
+            margin-top:0.5rem;
+            margin-bottom: 1rem;
+            margin-left: 4rem;
+            max-width: 40%;
+            color: #DF6026;
+            padding-top: -10rem;
+        }
+        h6 {
+            font-weight: 600;
+            font-size: 22px;
+            letter-spacing: 1px;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+            color:#6A6A6A;
+            margin-left: 4rem;
+        }
+        h3 {
+            font-weight:700;
+            font-size: 48px;
+            margin-left: 4rem;
+            margin-top:2rem;
+            color: #DF6026;
+        }
+
+        h5 {
+            font-weight: 600;
+            font-size: 20px;
+            margin-left: 4rem;
+            margin-top:1rem;
+            margin-bottom: 0.5rem;
+            color: #DF6026;
+            }
 
     
-    }
+    
         .coffee {
-            margin-left: 4rem;
+            display: flex;
+            margin-left4rem;
+            margin-right: none;
+            width: 100%;
         }
 
 
@@ -368,32 +445,12 @@ h7{
             visibility: hidden;
             }   
 
-        .hero {
-            display: flex;
-            justify-content: center;
-        }    
-
-
-        td p {
-            color:#6A6A6A;
-            font-weight: 400;
-            font-size:12px;
-            margin-top:.3rem;
-            margin-bottom:.2rem;
-            margin-left:4rem;
-
-        }   
+     
 
         td {
             margin-left: 4rem;
-        }
-        h4 {
-            margin-left: 4rem;
-        }
-        .container {
-            display: flex;
-            margin-left:auto;
-            margin-right: auto;
+            padding-right:4rem;
+
         }
         .gelato-price1 { 
             margin-top: 2rem;
@@ -406,6 +463,5 @@ h7{
         .last-grid {
             margin-left:4rem;
         }
-
 
 }
