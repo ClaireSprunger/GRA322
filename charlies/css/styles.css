@@ -321,7 +321,7 @@ h7{
 
 
 /* Desktop Media Query */
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1000px) {
         .logo img {
             width: 100px;
             height: 100px;
@@ -362,16 +362,13 @@ h7{
 
         h4 {
             margin-left: 4rem;
-        }
-
-        td {
-            margin-left:4rem;
+            padding-top:-10rem;
         }
 
         tr {
             margin-left: 4rem;
         }
-    
+
 
 
         .second img {
@@ -386,24 +383,23 @@ h7{
             margin-right: none;
             padding-right: none;
             margin-top: 3rem;
-            width: 800px;
-            height: 300px;
+            width: 700px;
+            height: 350px;
             display: flex;
             object-fit: cover;
             position: relative; 
             top: 5.25rem;
-            margin-top: 10rem;
+            margin-top: -8rem;
+
         }
 
         h4 {
             font-weight: 600;
             font-size: 40px;
-            margin-top:0.5rem;
             margin-bottom: 1rem;
             margin-left: 4rem;
             max-width: 40%;
             color: #DF6026;
-            padding-top: -10rem;
         }
         h6 {
             font-weight: 600;
@@ -418,8 +414,8 @@ h7{
             font-weight:700;
             font-size: 48px;
             margin-left: 4rem;
-            margin-top:2rem;
             color: #DF6026;
+            margin-bottom:-5rem;
         }
 
         h5 {
@@ -435,7 +431,7 @@ h7{
     
         .coffee {
             display: flex;
-            margin-left4rem;
+            margin-left:4rem;
             margin-right: none;
             width: 100%;
         }
@@ -447,11 +443,7 @@ h7{
 
      
 
-        td {
-            margin-left: 4rem;
-            padding-right:4rem;
-
-        }
+   
         .gelato-price1 { 
             margin-top: 2rem;
         }
@@ -462,6 +454,34 @@ h7{
 
         .last-grid {
             margin-left:4rem;
+        }
+        table {
+            width: max;
+            margin-left: 4rem;
+            margin-right: 0.5rem;
+            }
+        
+        td { 
+            font-weight: 600;
+            font-size: 16px;
+            letter-spacing: 1px;
+            line-height: 1.5;
+            padding: .25rem;
+            color:var(--gray-light);
+            vertical-align: top;
+        }
+        td:first-child {
+            width:85%; 
+        }
+        td p {
+            width:40%;
+        }
+        .map {
+
+            padding-top: 7rem;
+            padding-bottom:3rem;
+            width: 400px;
+            height: 300 px;
         }
 
 }
